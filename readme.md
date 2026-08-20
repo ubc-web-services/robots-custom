@@ -1,6 +1,6 @@
 
 #  Adding custom robots.txt via composer
-This set of shared custom robots.txt directives are intended to be best-practice for the bulk of Web Services sites. If you need to add site-specific robots.txt rules to a repo, these should be added in the `.platform.sh.yaml` build hook.
+This set of shared custom robots.txt directives are intended to be best-practice for the bulk of Web Services sites. If you need to add site-specific robots.txt rules to a repo, these should be added in the [`.platform.sh.yaml` build hook](#site-specific-rules).
 ##  Add shared rules to repo
 ###  Update composer.json
 ####  Add file-mapping
@@ -52,7 +52,7 @@ Add our custom robots package with:
 `composer require ubc-web-services/robots-custom:dev-master`
 ###  Commit changes
 Commit all changes, including the updated `robots.txt` in the `/web` directory.
-##  Add custom site-specific robots.txt rules
+##  [Site-specific rules]
 In the `.platform.sh.yaml` file, add a build hook for your custom rules. For example:
 ```
 hooks:
