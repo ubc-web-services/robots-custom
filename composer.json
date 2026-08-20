@@ -1,0 +1,18 @@
+{
+  "name": "ubc-web-services/robots-custom",
+  "description": "Adds custom robots.txt rules for Web Services websites",
+  "keywords": [
+    "robots",
+    "Drupal robots"
+  ],
+  "type": "drupal-robots",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "James O'Toole",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+  }
+}

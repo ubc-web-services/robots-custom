@@ -1,0 +1,2 @@
+Disallow: /*?*=*
+Crawl-delay: 10
